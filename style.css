@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /* navbar start  */
 .btn{
@@ -64,7 +65,7 @@ ul.header-menu  li a{
     justify-content: space-around;
     margin: 40px 0d;
 }
-.card{
+.card-conatainer .card{
     border: 1px solid grey;
     box-shadow: 4px 4px 8px grey;
     width: 300px;
@@ -79,7 +80,100 @@ ul.header-menu  li a{
     margin-top: -10px;
     border: 1px solid red;
 }
-.card img{
+.card-conatainer .card img{
     width: 60px;
 }
 /* service end */
+/* about start  */
+.about{
+    display: flex;
+    margin-top: 60px;
+    height: 100vh;
+    background: #000;
+    color: #f1f1f1;
+    padding:  90px 20px;
+    align-items: center;
+    
+}
+.about-left{
+    display: flex;
+    justify-content: space-around;
+}
+.about img{
+    width: 30%;
+}
+
+.about-right, .about-left{
+    width: 50%;
+}
+.about-right .btn{
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+/* about end */
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./resources/shape/Group_33094_1.png');
+    background-size:cover;
+    border-radius: 15px;
+    width: 500px;
+    height: 200px;
+    margin: 40px auto;
+}
+.form button{
+    margin-left: 20px;
+}
+/* last service start  */
+    .last-service{
+        display: flex;
+        justify-content: center;
+        margin: 50px 0;
+    }
+    .last-service .card{
+        margin-left: 50px;
+        border: 1px solid grey;
+        padding: 20px;
+        box-shadow: 4px 4px 8px grey;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .last-service .card img{
+        width: 80%;
+        border-radius: 5px;
+        
+    }
+    footer{
+        margin-bottom: 100px;
+    }
+    footer .line{
+        border: 1px solid grey;
+        margin: 30px;
+        width: 80%;
+        margin: 30px auto;
+    }
+    
+.join{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+}
+.footer-link a{
+    margin-left: 20px;
+    text-decoration: none;
+}
+footer .text{
+    text-align: center;
+    margin-top: 10px;
+}
+.gias{
+    color:red;
+    margin-bottom: 100px;
+}
+/* last service end */
